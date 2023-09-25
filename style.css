@@ -41,6 +41,8 @@ nav a{
     padding-right: 100px;
     font-size: 90px;
     font-family: 'Fuggles', cursive;
+    color: #1abc9c;;
+    font-weight: bold;
 }
 
 nav .animation{
@@ -51,6 +53,10 @@ nav .animation{
     border-radius: 8px;
     transition: .5s;
 }
+a:hover{
+    color: #1abc9c;
+    font-weight: bold;
+}
 
 a:nth-child(1){
     width: 100px;
@@ -58,6 +64,8 @@ a:nth-child(1){
 nav .start-home,a:nth-child(1):hover~.animation{
     width: 100px;
     margin-left: 30px;
+    color: #1abc9c;
+
 }
 
 a:nth-child(2){
