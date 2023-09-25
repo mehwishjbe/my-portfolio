@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -13,10 +14,10 @@ body{
 
 nav{
     position: relative;
+    top: 0;
     width: 100%;
     height: 100px;
     background: #34495e;
-    border-radius: 8px;
     box-sizing: 0 2px 3px 0 rgba(0,0,0, 0.1);
     display: flex;
     align-items: center;
@@ -31,7 +32,6 @@ nav a{
     letter-spacing: 2px;
     height: 100%;
     padding-top: 40px;
-    
 }
 
 #logo{
@@ -79,17 +79,46 @@ nav .start-home,a:nth-child(1):hover~.animation{
     width: 100px;
     margin-left: 50px;
 }
-nav .start-about,a:nth-child(2):hover~.animation{
+nav .start-education,a:nth-child(2):hover~.animation{
     width: 140px;
     left: 135px;
 }
 
-nav .start-blog,a:nth-child(3):hover~.animation{
+nav .start-projects,a:nth-child(3):hover~.animation{
     width: 120px;
     left: 290px;
 }
 
-nav .start-portfolio,a:nth-child(4):hover~.animation{
+nav .start-contact,a:nth-child(4):hover~.animation{
     width: 130px;
     left: 435px;
+}
+
+#section1{
+    height: 1000px;
+    background: pink;
+    display: inline-block;
+    width: 100%;
+
+}
+#section2{
+    height: 1000px;
+    background: greenyellow;
+    display: inline-block;
+    width: 100%;
+
+}
+#section3{
+    height: 1000px;
+    background: gold;
+    display: inline-block;
+    width: 100%;
+
+}
+#section4{
+    height: 1000px;
+    background: gray;
+    display: inline-block;
+    width: 100%;
+
 }
