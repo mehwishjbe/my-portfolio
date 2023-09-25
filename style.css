@@ -25,14 +25,14 @@ nav{
 
 nav a{
     font-size: 18px;
-    text-transform: uppercase;
     color: white;
-    padding-left: 50px; /*  */
+    padding-left: 50px;
     text-decoration: none;
     line-height: 50px;
     position: relative;
     display: inline-block;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 #logo{
@@ -56,6 +56,9 @@ nav .animation{
 a:hover{
     color: #1abc9c;
     font-weight: bold;
+    transition: .5s;
+    text-transform: uppercase;
+
 }
 
 a:nth-child(1){
