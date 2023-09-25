@@ -22,3 +22,14 @@ nav{
     display: flex;
     align-items: center;
 }
+
+nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
