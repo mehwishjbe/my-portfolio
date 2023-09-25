@@ -41,3 +41,12 @@ nav a{
     font-size: 90px;
     font-family: 'Fuggles', cursive;
 }
+
+nav .animation{
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    background: #1abc9c;
+    border-radius: 8px;
+    transition: .5s;
+}
