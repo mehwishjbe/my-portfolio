@@ -63,6 +63,10 @@ nav .start-home,a:nth-child(1):hover~.animation{
 a:nth-child(2){
     width: 110px;
 }
+nav .start-about,a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 100px;
+}
 
 a:nth-child(3){
     width: 100px;
