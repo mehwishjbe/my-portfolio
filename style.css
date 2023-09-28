@@ -143,6 +143,13 @@ li{
     border: 3px solid white;
 }
 
+.hero-image a:hover{
+    background-color: white;
+    color: gray;
+    border: 3px solid gray;
+    transition: 0.3s ease; 
+}
+
 
 @media(max-width: 770px){
     .hamburger{
