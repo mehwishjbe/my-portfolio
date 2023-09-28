@@ -1,48 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Protfolio</title>
 </head>
 <body>
-    <nav>
-        <a href="#section1">Home</a>
-        <a href="#section2">Education</a>
-        <a href="#section3">Projects</a>
-        <a href="#section4">Contact</a>
-        <a id="logo" href="#">MJ</a>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logoText">MJ</a>
 
-        <div class="animation start-home"></div>
-    </nav>    
+      <ul class="navMenu">
+        <li class="navItems"><a class="nav-link" href="#section1">Home</a></li>
+        <li class="navItems"><a class="nav-link" href="#section2">About</a></li>
+        <li class="navItems"><a class="nav-link" href="#section3">Project</a></li>
+        <li class="navItems"><a class="nav-link" href="#section4">Contact</a></li>
+      </ul>
 
-    
-    <div id="section1">
-        <h1>This is home Section</h1>
-    </div>
-    <div id="section2">
-        <h1>This is Education Section</h1>
-    </div>
-    <div id="section3">
-        <h1>This is Projects Section</h1>
-    </div>
-    <div id="section4">
-        <h1>This is Contact Section</h1>
-    </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
 
-    <nav class="navbarMobile">
-        <div>
-          <img
-            class="hamburgerImageClose" src="./images/icon-menu-close.png" alt=""/>
-        </div>
+    </nav>
+  </header>
 
-        <a href="#">Home</a>
-        <a href="#">Education</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-        
-      </nav>
-
+  <div class="content" id="section1">
+    <h1>This is home Section</h1>
+  </div>
+  <div class="content" id="section2">
+    <h1>This is Education Section</h1>
+  </div>
+  <div class="content" id="section3">
+    <h1>This is Projects Section</h1>
+  </div>
+  <div class="content" id="section4">
+    <h1>This is Contact Section</h1>
+  </div>
+  
+  <script src="main.js"></script>
 </body>
 </html>
