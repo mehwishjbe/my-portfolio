@@ -68,11 +68,6 @@ li{
 .nav-link{
     transition: 0.5s ease;
     font-size: 20px;
-    
-}
-
-.nav-link:hover{
-    color:#1abc9c ;
 }
 
 .hamburger{
@@ -85,9 +80,8 @@ li{
     width: 35px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: white;
+    background-color: gray;
 }
 
 #section1{
@@ -142,12 +136,19 @@ li{
         top: 108px;
         gap: 0;
         /* flex-direction: column; */
-        background-color: #34495e;
+        background-color: gray;
         width: 100%;
         text-align: center;
         transition: 0.3s;
         padding: 0px 20px;
         font-size: 20px;
+        color: white;
+    }
+    .navMenu a{
+        color: white;
+    }
+    .navMenu a:hover{
+        color: black;
     }
 
     .navItems{
