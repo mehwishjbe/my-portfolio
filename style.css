@@ -123,6 +123,13 @@ li{
     padding-top: 380px;
 }
 
+.hero-image h1{
+    color: white;
+    font-size: 100px;
+    font-family: 'Martian Mono', monospace;
+    padding-bottom: 20px;
+}
+
 
 @media(max-width: 770px){
     .hamburger{
