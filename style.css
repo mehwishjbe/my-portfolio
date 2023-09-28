@@ -7,9 +7,10 @@
     scroll-behavior: smooth;
 }
 
+/* NAVBAR STARTS HERE */
 
 header{
-    background-color: #34495e;
+    background-color: whitesmoke;
 }
 
 li{
@@ -17,9 +18,29 @@ li{
     padding-right: 30px;
 }
 
-a{
+.navMenu a{
     text-decoration: none;
-    color: white;
+    color: gray;
+    position: relative;
+}
+
+.navMenu a:hover{
+    color: gray;
+}
+
+.navMenu a:after{
+    content: "";
+    position: absolute;
+    background-color: gray;
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navMenu a:hover:after{
+    width: 100%;
 }
 
 .navbar{
@@ -39,7 +60,8 @@ a{
 
 .logoText{
     font-family: 'Fuggles', cursive;
-    color: #1abc9c;
+    color: gray;
+    text-decoration: none;
     font-weight: bold;
     font-size: 90px;
 }
