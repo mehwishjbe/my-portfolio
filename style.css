@@ -67,7 +67,7 @@ li{
 }
 .nav-link{
     transition: 0.5s ease;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .hamburger{
@@ -84,13 +84,7 @@ li{
     background-color: gray;
 }
 
-#section2{
-    height: 1000px;
-    background: greenyellow;
-    display: inline-block;
-    width: 100%;
 
-}
 #section3{
     height: 1000px;
     background: gold;
@@ -150,6 +144,23 @@ li{
     transition: 0.3s ease; 
 }
 
+/* HERO SECTION ENDS HERE */
+
+
+
+/* SKILLS SECTIONS STARTS */
+#section2{
+    height: 1000px;
+    background: white;
+    display: inline-block;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 50px 50px;
+}
+
+
+/* SKILLS SECTIONS ENDS */
+
 
 @media(max-width: 770px){
     .hamburger{
@@ -172,8 +183,8 @@ li{
         position: fixed;
         left: 100%;
         top: 108px;
-        gap: 0;
-        /* flex-direction: column; */
+        gap: 0px;
+        flex-direction: column;
         background-color: gray;
         width: 100%;
         text-align: center;
