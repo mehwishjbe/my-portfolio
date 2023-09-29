@@ -183,6 +183,11 @@ span{
     text-shadow: none;
 }
 
+.percentage{
+    margin-right: 15px;
+    margin-top: 6px;
+    float: right;
+}
 /* SKILLS SECTIONS ENDS */
 
 
