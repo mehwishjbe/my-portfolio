@@ -188,6 +188,15 @@ span{
     margin-top: 6px;
     float: right;
 }
+
+#html{
+    width: 85%;
+    animation: animation-html 3s;
+    height: 35px;
+    border-radius: 1000px;
+    background-color: rgb(160, 96, 96);
+    color: rgb(112, 24, 24);
+}
 /* SKILLS SECTIONS ENDS */
 
 
