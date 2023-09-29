@@ -175,6 +175,13 @@ span{
     margin: 20px auto;
 }
 
+.skill-area{
+    font-size: 16px;
+    position: absolute;
+    margin: 10px;
+    margin-left: 15px;
+    text-shadow: none;
+}
 
 /* SKILLS SECTIONS ENDS */
 
