@@ -155,11 +155,24 @@ li{
     display: inline-block;
     width: 100%;
     padding: 20px 20px;
+    margin: 90px auto;
+}
+span{
+    color: gray;
 }
 
 #skills{
     font-size: 20px;
     margin: 90px auto;
+}
+
+.skill-bar{
+    width: 50%;
+    height: 35px;
+    background: #ddd;
+    border-radius: 1000px;
+    text-transform: uppercase;
+    margin: 20px auto;
 }
 
 
