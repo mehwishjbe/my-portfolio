@@ -197,6 +197,16 @@ span{
     background-color: rgb(160, 96, 96);
     color: rgb(112, 24, 24);
 }
+
+#css{
+    width: 80%;
+    animation: animation-css 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: rgb(4, 141, 141);
+    color: aqua;
+}
 /* SKILLS SECTIONS ENDS */
 
 
