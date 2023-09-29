@@ -207,6 +207,17 @@ span{
     background-color: rgb(4, 141, 141);
     color: aqua;
 }
+
+#js{
+    width: 40%;
+    animation: animation-js 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: gold;
+    color: goldenrod;
+}
+
 /* SKILLS SECTIONS ENDS */
 
 
