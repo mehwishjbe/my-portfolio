@@ -15,7 +15,7 @@ document.querySelectorAll(".nav-link").forEach(ele =>
         navMenuJS.classList.remove("active");
     }));
 
-
+    
 const card = document.querySelectorAll('.inner-card');
 
 card.forEach(card => {
