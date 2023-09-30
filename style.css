@@ -256,7 +256,6 @@ li{
 }
 
 .card{
-    /* margin: 150px auto; */
     width: 400px;
     height: 600px;
     display: flex;
@@ -301,6 +300,22 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#js-image{
+    width: 28400px;
+    height: 300px;
+}
+
+#github-heading{
+    color: gray;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+#github-link{
+    color: black;
+    font-size: 35px;
 }
 
 /* FLIP CARD SECTION ENDS */
