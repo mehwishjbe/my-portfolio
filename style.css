@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    width: 100%;
+}
+
 /* NAVBAR STARTS HERE */
 
 header{
@@ -240,6 +244,25 @@ li{
     to{width:40%;}
 }
 /* SKILLS SECTIONS ENDS */
+
+
+
+/* FLIP CARD SECTION STARTS */
+.card-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 100px auto;
+    width: 400px;
+    height: 600px;
+    display: flex;
+}
+/* FLIP CARD SECTION ENDS */
+
+
 
 
 @media(max-width: 770px){
