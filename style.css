@@ -293,6 +293,14 @@ li{
     align-items: center;
     justify-content: center;
 }
+
+.card-face-end{
+    background-color: aqua;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* FLIP CARD SECTION ENDS */
 
 
