@@ -14,3 +14,12 @@ document.querySelectorAll(".nav-link").forEach(ele =>
         hamburgerJS.classList.remove("active");
         navMenuJS.classList.remove("active");
     }));
+
+
+const card = document.querySelectorAll('.inner-card');
+
+card.forEach(card => {
+    card.addEventListener('click', function(){
+    this.classList.toggle('is-flipped');
+    });
+});
