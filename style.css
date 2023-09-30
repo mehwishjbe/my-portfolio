@@ -270,6 +270,10 @@ li{
     position: relative;
     display: flex;
 }
+
+.inner-card.is-flipped{
+    transform: rotateY(180deg);
+}
 /* FLIP CARD SECTION ENDS */
 
 
