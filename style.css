@@ -561,3 +561,29 @@ li{
     }
 }
 /* MEDIA QUERY OF SKILL BARS ENDS */
+
+
+
+
+@media(max-width: 770px){
+    .outer-div-contact{
+        background-color: white;
+        height: fit-content;
+        width: 500px;
+        margin: 250px auto;
+        border-radius: 15px;
+    }
+    .locationContact{
+        margin: 70px 150px 0px 150px;
+        display: flex;
+        justify-content: center;
+    }
+    .emailContact{
+        margin: 30px 150px 0px 150px;
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        padding-bottom: 190px;
+    }
+}
+/* MEDIA QUERY OF CONTACT ENDS */
