@@ -254,6 +254,16 @@ li{
     margin-top: 0px;
 }
 
+.card-outer-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 350px;
+}
+
 .card{
     width: 350px;
     height: 500px;
