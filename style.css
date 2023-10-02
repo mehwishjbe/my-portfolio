@@ -88,14 +88,6 @@ li{
     background-color: gray;
 }
 
-#section4{
-    height: 1000px;
-    background: gray;
-    display: inline-block;
-    width: 100%;
-
-}
-
 /* NAVBAR ENDS HERE */
 
 
@@ -489,6 +481,7 @@ li{
 
 
 /* MEDIA QUERY OF SKILL BARS STARTS */
+@media(max-width: 770px){
 #skills-area-js{
     color: gold;
     font-weight: bold;
@@ -507,5 +500,6 @@ li{
     font-weight: bold;
     padding-left: 40px;
 
+    }
 }
 /* MEDIA QUERY OF SKILL BARS ENDS */
