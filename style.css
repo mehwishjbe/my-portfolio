@@ -445,5 +445,18 @@ li{
         justify-content: space-between;
         padding-left: 25px;
     }
+
+    .card-outer-1{
+        display: block;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+    .card-outer{
+        display: block;
+        margin-left: 100px;
+        margin-top: 20px;
+
+    }
 }
 /* MEDIA QUERY OF FLIP CARD ENDS */
