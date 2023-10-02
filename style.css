@@ -284,6 +284,11 @@ li{
     padding-left: 25px;
 }
 
+
+#projectsHeading{
+    padding-bottom: 50px;
+}
+
 .inner-card{
     width: 100%;
     height: 100%;
