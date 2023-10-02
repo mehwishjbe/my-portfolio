@@ -362,6 +362,16 @@ li{
 
 
 
+/* CONTACT SECTION STARTS */
+#section4{
+    height: 1000px;
+    background: gray;
+    display: inline-block;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(129, 96, 96), rgb(67, 65, 65));
+}
+/* CONTACT SECTION ENDS */
+
 /* MEDIA QUERY OF HAMBURGER STARTS */
 @media(max-width: 770px){
     .hamburger{
