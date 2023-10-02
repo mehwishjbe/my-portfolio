@@ -370,6 +370,18 @@ li{
     width: 100%;
     background-image: linear-gradient(to right, rgb(129, 96, 96), rgb(67, 65, 65));
 }
+
+.contactHeading{
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.outer-div-contact{
+    background-color: white;
+    width: 900px;
+    margin: 250px auto;
+    border-radius: 15px;
+}
 /* CONTACT SECTION ENDS */
 
 /* MEDIA QUERY OF HAMBURGER STARTS */
