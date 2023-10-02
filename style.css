@@ -399,6 +399,25 @@ li{
     padding-top: 15px;
     padding-left: 15px;
 }
+
+#img-email{
+    width: 50px;
+    height: 50px;
+}
+
+.emailContact{
+    margin: 70px 150px;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-bottom: 130px;
+}
+
+.emailContact span{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
 /* CONTACT SECTION ENDS */
 
 /* MEDIA QUERY OF HAMBURGER STARTS */
