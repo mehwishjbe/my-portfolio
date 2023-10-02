@@ -415,5 +415,15 @@ li{
         width: 250px;
         height: 400px;
     }
+
+    #git-image{
+        width: 250px;
+        height: 200px;
+    }
+
+    #html-image{
+        width: 250px;
+        height: 250px;
+    }
 }
 /* MEDIA QUERY OF FLIP CARD ENDS */
