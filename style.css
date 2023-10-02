@@ -270,6 +270,10 @@ li{
     display: flex;
 }
 
+.card-face .card-face-end{
+    display: block;
+}
+
 .inner-card{
     width: 100%;
     height: 100%;
