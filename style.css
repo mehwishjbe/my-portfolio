@@ -425,5 +425,11 @@ li{
         width: 250px;
         height: 250px;
     }
+
+    #githubHeading{
+        color: black;
+        font-size: 25px;
+        text-decoration: none;
+    }
 }
 /* MEDIA QUERY OF FLIP CARD ENDS */
