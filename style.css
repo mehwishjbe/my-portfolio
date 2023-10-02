@@ -174,21 +174,21 @@ li{
 #skills-area-js{
     color: gold;
     font-weight: bold;
-    padding-left: 450px;
+    padding-left: 250px;
 
 }
 
 #skills-area-css{
     color: aqua;
     font-weight: bold;
-    padding-left: 450px;
+    padding-left: 250px;
 
 }
 
 #skills-area-html{
     color: rgb(112, 24, 24);
     font-weight: bold;
-    padding-left: 450px;
+    padding-left: 250px;
 }
 
 .percentage{
@@ -564,7 +564,7 @@ li{
 
 
 
-
+/* MEDIA QUERY OF CONTACT STARTS */
 @media(max-width: 770px){
     .outer-div-contact{
         background-color: white;
