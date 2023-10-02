@@ -350,7 +350,7 @@ li{
 
 
 
-
+/* MEDIA QUERY OF HAMBURGER STARTS */
 @media(max-width: 770px){
     .hamburger{
         display: block;
@@ -397,3 +397,19 @@ li{
         left: 0;
     }
 }
+/* MEDIA QUERY OF HAMBURGER ENDS */
+
+
+
+
+/* MEDIA QUERY OF FLIP CARD STARTS */
+@media(max-width: 770px){
+    
+    #section3{
+        display: block;
+        height: fit-content;
+        width: 100%;
+    }
+    
+}
+/* MEDIA QUERY OF FLIP CARD ENDS */
