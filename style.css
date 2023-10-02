@@ -484,3 +484,28 @@ li{
     }
 }
 /* MEDIA QUERY OF FLIP CARD ENDS */
+
+
+
+
+/* MEDIA QUERY OF SKILL BARS STARTS */
+#skills-area-js{
+    color: gold;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+#skills-area-css{
+    color: aqua;
+    font-weight: bold;
+    padding-left: 40px;
+
+}
+
+#skills-area-html{
+    color: rgb(112, 24, 24);
+    font-weight: bold;
+    padding-left: 40px;
+
+}
+/* MEDIA QUERY OF SKILL BARS ENDS */
