@@ -150,13 +150,11 @@ li{
     background: white;
     display: inline-block;
     width: 100%;
-    padding: 20px 20px;
-    margin: 90px auto;
+    padding: 50px 50px;
 }
 
 #spanheading{
     color: gray;
-    margin-left: 30px;
 }
 
 #skills{
@@ -195,7 +193,6 @@ li{
     background-color: rgb(160, 96, 96);
     color: rgb(112, 24, 24);
     font-weight: bold;
-
 }
 
 #css{
@@ -240,24 +237,26 @@ li{
 
 
 /* FLIP CARD SECTION STARTS */
-#section3{
+ #section3{
     height: 1000px;
     background: whitesmoke;
-    display: inline-block;
+    display: flex;
     width: 100%;
-    padding: 90px 0px 0px 30px;
-
+    padding: 90px 50px;
 }
 
 .card-outer{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .card{
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     display: flex;
 }
 
@@ -279,16 +278,14 @@ li{
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
+    backface-visibility: hidden; 
     -webkit-backface-visibility: hidden;
-    overflow: hidden; 
     border-radius: 16;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 } 
 
 .card-face-front{
     color: black;
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -297,27 +294,29 @@ li{
 .card-face-end{
     background-color: white;
     transform: rotateY(180deg);
-    display: flex;
+    text-align: center;
+    padding-top: 200px;
+    display: block;
     align-items: center;
     justify-content: center;
 }
 
-#js-image{
-    width: 28400px;
+#git-image{
+    width: 450px;
     height: 300px;
 }
 
-#github-heading{
-    color: gray;
-    margin-left: 30px;
-    padding-top: 30px;
+#html-image{
+    width: 450px;
+    height: 300px;
 }
 
-#github-link{
+#githubHeading{
     color: black;
     font-size: 35px;
+    text-decoration: none;
+    margin-top: 70px;
 }
-
 /* FLIP CARD SECTION ENDS */
 
 
