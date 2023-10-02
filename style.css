@@ -431,5 +431,9 @@ li{
         font-size: 25px;
         text-decoration: none;
     }
+
+    #projectsHeading{
+        padding-bottom: 10px;
+    }
 }
 /* MEDIA QUERY OF FLIP CARD ENDS */
