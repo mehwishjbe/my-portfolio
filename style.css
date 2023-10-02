@@ -433,7 +433,7 @@ li{
     }
 
     #projectsHeading{
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
 
     #github-links{
@@ -457,6 +457,10 @@ li{
         margin-left: 100px;
         margin-top: 20px;
 
+    }
+
+    .card-face-end{
+        padding-top: 70px;
     }
 }
 /* MEDIA QUERY OF FLIP CARD ENDS */
