@@ -96,7 +96,7 @@ li{
 
 
 .hero-image{
-    height: 1000px;
+    height: 700px;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./images/laptop-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ li{
     color: white;
     font-size: 100px;
     font-family: 'Martian Mono', monospace;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .hero-image a{
@@ -138,68 +138,49 @@ li{
 
 /* SKILLS SECTIONS STARTS */
 #section2{
-    height: 400px;
+    height: fit-content;
     background: white;
-    /* display: inline-block; */
     width: 100%;
-    padding: 50px 50px;
+    padding-bottom: 50px;
 }
 
-#spanheading{
-    color: gray;
+.skillsHeading{
+    margin: 0px auto;
+    padding: 90px 0px 20px 50px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
 }
 
-#skills{
-    font-size: 20px;
-    /* margin: 50px auto; */
-}
-
-.skill-bar{
+.skillsBar{
     width: 50%;
     height: 35px;
     background: #ddd;
     border-radius: 1000px;
     text-transform: uppercase;
-    margin: 20px auto;
-}
-
-.skill-area{
-    font-size: 20px;
-    position: absolute;
-    margin: 6px;
-    margin-left: 15px;
-    text-shadow: none;
-}
-
-#skills-area-js{
-    color: gold;
-    font-weight: bold;
-    padding-left: 250px;
-
-}
-
-#skills-area-css{
-    color: aqua;
-    font-weight: bold;
-    padding-left: 250px;
-
-}
-
-#skills-area-html{
-    color: rgb(112, 24, 24);
-    font-weight: bold;
-    padding-left: 250px;
+    margin: 10px auto;
 }
 
 .percentage{
+    float: right;
     margin-right: 15px;
     margin-top: 5px;
-    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textHtml{
+    width: 50%; 
+    margin: 0px auto;
+    padding: 20px 0px 0px 15px;
+    font-size: 20px;
+    color: rgb(112, 24, 24);
+    font-weight: bold;
 }
 
 #html{
     width: 85%;
-    animation: animation-html 3s;
+    animation: animation-html 4s;
     height: 35px;
     border-radius: 1000px;
     background-color: rgb(160, 96, 96);
@@ -207,32 +188,28 @@ li{
     font-weight: bold;
 }
 
-#css{
-    width: 80%;
-    animation: animation-css 3s;
-    height: 35px;
-    position: relative;
-    border-radius: 1000px;
-    background-color: rgb(4, 141, 141);
-    color: aqua;
-    font-weight: bold;
-}
-
-#js{
-    width: 40%;
-    animation: animation-js 3s;
-    height: 35px;
-    position: relative;
-    border-radius: 1000px;
-    background-color: gold;
-    color: rgb(182, 137, 23);
-    font-weight: bold;
-}
-
-/*  animation for skills bar*/
 @keyframes animation-html{
     from{width: 0%}
     to{width:85%;}
+}
+
+.textCSS{
+    width: 50%; 
+    margin: 0px auto;
+    padding: 20px 0px 0px 15px;
+    font-size: 20px;
+    color: #4c7def;
+    font-weight: bold;
+}
+
+#css{
+    width: 80%;
+    animation: animation-css 4s;
+    height: 35px;
+    border-radius: 1000px;
+    background-color: #264de4;
+    color: #4c7def;
+    font-weight: bold;
 }
 
 @keyframes animation-css{
@@ -240,9 +217,100 @@ li{
     to{width:80%;}
 }
 
+.textJS{
+    width: 50%; 
+    margin: 0px auto;
+    padding: 20px 0px 0px 15px;
+    font-size: 20px;
+    color: gold;
+    font-weight: bold;
+}
+
+#js{
+    width: 45%;
+    animation: animation-js 4s;
+    height: 35px;
+    border-radius: 1000px;
+    background-color: goldenrod;
+    color: gold;
+    font-weight: bold;
+}
+
 @keyframes animation-js{
     from{width: 0%}
+    to{width:45%;}
+}
+
+.textjava{
+    width: 50%; 
+    margin: 0px auto;
+    padding: 20px 0px 0px 15px;
+    font-size: 20px;
+    color: #f28063;
+    font-weight: bold;
+}
+
+#java{
+    width: 40%;
+    animation: animation-java 4s;
+    height: 35px;
+    border-radius: 1000px;
+    background-color: #ED1D25;
+    color: #f28063;
+    font-weight: bold;
+}
+
+@keyframes animation-java{
+    from{width: 0%}
     to{width:40%;}
+}
+
+.textCplusplus{
+    width: 50%; 
+    margin: 0px auto;
+    padding: 20px 0px 0px 15px;
+    font-size: 20px;
+    color: #46729e;
+    font-weight: bold;
+}
+
+#cplusplus{
+    width: 30%;
+    animation: animation-cplusplus 4s;
+    height: 35px;
+    border-radius: 1000px;
+    background-color: #5E97D0;
+    color: #46729e;
+    font-weight: bold;
+}
+
+@keyframes animation-cplusplus{
+    from{width: 0%}
+    to{width:30%;}
+}
+
+.textC{
+    width: 50%; 
+    margin: 0px auto;
+    padding: 20px 0px 0px 15px;
+    font-size: 20px;
+    color: #5E97D0;
+    font-weight: bold;
+}
+
+#c{
+    width: 30%;
+    animation: animation-c 4s;
+    height: 35px;
+    border-radius: 1000px;
+    background-color: #385673;
+    color: #5E97D0;
+    font-weight: bold;
+}
+
+@keyframes animation-c{
+    from{width: 0%}
+    to{width:30%;}
 }
 /* SKILLS SECTIONS ENDS */
 
@@ -590,3 +658,4 @@ li{
     }
 }
 /* MEDIA QUERY OF CONTACT ENDS */
+
