@@ -551,6 +551,11 @@ li{
         width: 100%;
     }
 
+    .card-outer{
+        justify-content: center;
+        align-self: center;
+    }
+
     .card{
         width: 250px;
         height: 400px;
