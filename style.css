@@ -152,6 +152,14 @@ li{
     font-weight: bold;
 }
 
+#projectsHeading{
+    margin: 0px auto;
+    padding: 90px 0px 20px 50px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+
 .skillsBar{
     width: 50%;
     height: 35px;
@@ -321,7 +329,7 @@ li{
     background: whitesmoke;
     display: flex;
     width: 100%;
-    padding: 90px 50px;
+    padding: 0px 50px;
 }
 
 .card-outer{
@@ -549,6 +557,7 @@ li{
         display: block;
         height: fit-content;
         width: 100%;
+        padding-bottom: 40px;
     }
 
     .card-outer{
@@ -557,55 +566,71 @@ li{
     }
 
     .card{
-        width: 250px;
-        height: 400px;
+        width: 200px;
+        height: 300px;
     }
 
     #git-image{
-        width: 250px;
-        height: 200px;
+        width: 200px;
+        height: 150px;
     }
 
     #html-image{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 150px;
     }
 
     #githubHeading{
         color: black;
         font-size: 25px;
         text-decoration: none;
-    }
-
-    #projectsHeading{
-        padding-bottom: 30px;
+        margin: 0px;
+        padding: 0px;
     }
 
     #github-links{
         color: black;
-        font-size: 20px;
-        padding-bottom: 10px;
+        font-size: 15px;
+        /* padding-top: 10px; */
         text-decoration: none;
         display: block;
         justify-content: space-between;
-        padding-left: 25px;
+        /* padding-left: 25px; */
     }
 
     .card-outer-1{
-        display: block;
-        margin-left: 100px;
+        display: flex;
+        margin-left: 0px;
         margin-top: 20px;
     }
 
     .card-outer{
-        display: block;
-        margin-left: 100px;
+        display: flex;
+        margin-left: 0px;
         margin-top: 20px;
-
     }
 
     .card-face-end{
         padding-top: 70px;
+    }
+
+    .projectsHeading{
+        width: 40%;
+        margin: 0px auto;
+        padding: 50px 0px 20px 60px;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+    }
+
+    #projectsHeading{
+        font-size: 25px;
+    }
+
+    #projectHeading{
+        font-size: 25px;
+        padding: 0px 0px 10px 0px;
+        margin: 0px 0px 10px 0px;
     }
 }
 /* MEDIA QUERY OF FLIP CARD ENDS */
