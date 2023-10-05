@@ -110,6 +110,11 @@ li{
     font-size: 100px;
     font-family: 'Martian Mono', monospace;
     padding-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 45%;
+    left: 40%;
 }
 
 .hero-image a{
@@ -144,15 +149,7 @@ li{
     padding-bottom: 150px;
 }
 
-.skillsHeading{
-    margin: 0px auto;
-    padding: 90px 0px 20px 50px;
-    font-size: 32px;
-    color: black;
-    font-weight: bold;
-}
-
-#projectsHeading{
+#skillsHeading{
     margin: 0px auto;
     padding: 90px 0px 20px 50px;
     font-size: 32px;
@@ -329,7 +326,14 @@ li{
     background: whitesmoke;
     display: flex;
     width: 100%;
-    padding: 0px 50px;
+}
+
+#projectsHeading{
+    margin: 0px auto;
+    padding: 90px 0px 20px 50px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
 }
 
 .card-outer{
@@ -369,11 +373,6 @@ li{
     display: block;
     justify-content: space-between;
     padding-left: 25px;
-}
-
-
-#projectsHeading{
-    padding-bottom: 50px;
 }
 
 .inner-card{
@@ -498,26 +497,32 @@ li{
 }
 /* CONTACT SECTION ENDS */
 
-/* MEDIA QUERY HERO SECTION STARTS */
-.hero-image{
-    height: 450px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./images/laptop-image.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.hero-image h1{
-    color: white;
-    font-size: 70px;
-    font-family: 'Martian Mono', monospace;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 40%;
-    left: 33%;
+
+/* MEDIA QUERY HERO SECTION STARTS */
+@media(max-width: 770px){
+    .hero-image{
+        height: 450px;
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./images/laptop-image.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .hero-image h1{
+        color: white;
+        font-size: 70px;
+        font-family: 'Martian Mono', monospace;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 40%;
+        left: 33%;
+    }
 }
 /* MEDIA QUERY HERO SECTION ENDS */
+
+
 
 /* MEDIA QUERY OF HAMBURGER STARTS */
 @media(max-width: 770px){
@@ -612,11 +617,9 @@ li{
     #github-links{
         color: black;
         font-size: 15px;
-        /* padding-top: 10px; */
         text-decoration: none;
         display: block;
         justify-content: space-between;
-        /* padding-left: 25px; */
     }
 
     .card-outer-1{
@@ -635,17 +638,13 @@ li{
         padding-top: 70px;
     }
 
-    .projectsHeading{
-        width: 40%;
+    #projectsHeading{
+        width: 20%;
         margin: 0px auto;
-        padding: 50px 0px 20px 60px;
+        padding: 50px 0px 20px 50px;
         font-size: 25px;
         color: black;
         font-weight: bold;
-    }
-
-    #projectsHeading{
-        font-size: 25px;
     }
 
     #projectHeading{
