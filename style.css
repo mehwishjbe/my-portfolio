@@ -498,6 +498,25 @@ li{
 }
 /* CONTACT SECTION ENDS */
 
+/* MEDIA QUERY HERO SECTION STARTS */
+.hero-image{
+    height: 450px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./images/laptop-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'Martian Mono', monospace;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+/* MEDIA QUERY HERO SECTION ENDS */
+
 /* MEDIA QUERY OF HAMBURGER STARTS */
 @media(max-width: 770px){
     .hamburger{
