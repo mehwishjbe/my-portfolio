@@ -512,7 +512,9 @@ li{
     font-size: 70px;
     font-family: 'Martian Mono', monospace;
     position: absolute;
-    top: 50%;
+    margin: 0;
+    padding: 0;
+    top: 40%;
     left: 33%;
 }
 /* MEDIA QUERY HERO SECTION ENDS */
