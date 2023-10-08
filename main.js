@@ -22,6 +22,13 @@ document.querySelectorAll(".nav-link").forEach(ele =>
 
         hamburgerJS.classList.remove("active");
         navMenuJS.classList.remove("active");
+
+        if(headingVisible){
+            moveHeading.style.display = 'none';
+        }else{
+            moveHeading.style.display = 'block';
+        }
+        headingVisible = !headingVisible;
     }));
 
     
