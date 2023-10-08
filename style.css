@@ -117,10 +117,6 @@ li{
     left: 40%;
 }
 
-.hero-image-h1 .active{
-    display: none;
-}
-
 .hero-image a:hover{
     background-color: white;
     color: gray;
