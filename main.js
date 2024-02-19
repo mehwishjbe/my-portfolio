@@ -1,4 +1,4 @@
-const hamburgerJS = document.querySelector('.hamburger');
+/* const hamburgerJS = document.querySelector('.hamburger');
 const navMenuJS = document.querySelector('.navMenu');
 const moveHeading = document.querySelector('.hero-image-h1');
 let headingVisible =  true;
@@ -38,4 +38,4 @@ card.forEach(card => {
     card.addEventListener('click', function(){
     this.classList.toggle('is-flipped');
     });
-});
+}); */
