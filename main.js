@@ -1,3 +1,21 @@
+window.addEventListener("scroll", function(){
+    var header = this.document.querySelector("header")
+    header.classList.toggle("sticky", this.window.scrollY > 0);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* const hamburgerJS = document.querySelector('.hamburger');
 const navMenuJS = document.querySelector('.navMenu');
 const moveHeading = document.querySelector('.hero-image-h1');
