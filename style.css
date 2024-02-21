@@ -28,6 +28,13 @@ header {
     color: black;
     border-bottom: 4px solid #2D2D2D;
   }
+
+  header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 /* Header Ends */
 
 /* NAVBAR STARTS HERE 
