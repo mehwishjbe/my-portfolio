@@ -11,6 +11,25 @@ body{
     width: 100%;
 }
 
+/* Header Starts */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 2;
+    background-color: white;
+    color: black;
+    border-bottom: 4px solid #2D2D2D;
+  }
+/* Header Ends */
+
 /* NAVBAR STARTS HERE 
 
 header{
