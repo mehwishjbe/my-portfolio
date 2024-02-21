@@ -81,6 +81,13 @@ header {
   header.sticky .logo{
     color: #2D2D2D;
   }
+
+  .s1{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-color: #503D3F;
+  }
 /* Header Ends */
 
 /* NAVBAR STARTS HERE 
